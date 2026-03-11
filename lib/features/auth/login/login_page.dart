@@ -241,21 +241,6 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           const SizedBox(height: 10),
 
-                          // Forgot Password
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: TextButton(
-                              onPressed: () {
-                                // Tambahkan fungsi lupa password
-                              },
-                              child: Text(
-                                'Lupa Kata sandi?',
-                                style: TextStyle(
-                                  color: Colors.blue.shade700,
-                                ),
-                              ),
-                            ),
-                          ),
                           const SizedBox(height: 20),
 
                           // Login Button
@@ -362,30 +347,6 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                     const SizedBox(height: 20),
-
-                    // Sign Up Link
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Text(
-                          "Don't have an account? ",
-                          style: TextStyle(color: Colors.white70),
-                        ),
-                        TextButton(
-                          onPressed: () {
-                            // Tambahkan fungsi ke halaman register
-                          },
-                          child: const Text(
-                            'Sign Up',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
                   ],
                 ),
               ),
