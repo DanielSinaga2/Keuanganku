@@ -80,3 +80,33 @@ Aplikasi memberikan insight otomatis seperti:
 ---
 
 # 🏗 Struktur Project
+│
+├── models
+│ ├── transaction_model.dart
+│ └── budget_model.dart
+│
+├── services
+│ ├── firestore_service.dart
+│ ├── auth_service.dart
+│ ├── pdf_service.dart
+│ ├── biometric_service.dart
+│ └── ai_insight_service.dart
+│
+├── features
+│ │
+│ ├── auth
+│ │ ├── login
+│ │ │ └── login_page.dart
+│ │ └── auth_gate.dart
+│ │
+│ ├── dashboard
+│ │ └── dashboard_page.dart
+│ │
+│ ├── transaction
+│ │ ├── add_transaction_page.dart
+│ │ └── edit_transaction_page.dart
+│ │
+│ └── budget
+│ └── add_budget_page.dart
+│
+└── main.dart
